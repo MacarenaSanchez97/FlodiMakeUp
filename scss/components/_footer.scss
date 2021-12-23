@@ -1,0 +1,27 @@
+.footerPrincipal {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(238, 218, 226), white);
+  }
+  
+  .footerFlodi {
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 110%;
+    list-style-type: none;
+  }
+  
+  .contactoFooter
+  {
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 180%;
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+  
+  .logoFooter{
+    width: 40%;
+    margin-left: 35%;
+    margin-top: 5%;
+  }
