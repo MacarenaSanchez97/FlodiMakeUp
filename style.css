@@ -1,3 +1,13 @@
+html {
+  overflow-x: hidden;
+}
+
+/*Header*/
+.menuFont {
+  font-family: "Amatic SC", cursive;
+  font-size: 150%;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -36,6 +46,15 @@ header {
   height: auto;
 }
 
+/*Fin Header*/
+/*Section*/
+.banerFlodi {
+  width: 100%;
+  margin-left: 2%;
+}
+
+/*Fin Section*/
+/*Section 1*/
 .imagen {
   width: 80%;
 }
@@ -48,36 +67,21 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 120px;
 }
 
+/*Fin section 1*/
+/*Section 2*/
 .presentacion {
   text-align: center;
-  font-family: Dancing Script;
   font-size: 150%;
+  font-family: "Amatic SC", cursive;
   color: gray;
-  background-color: #ffd3ff;
+  margin-top: 10%;
+  margin-right: 8%;
 }
 
-.presentacion {
-  animation-duration: 5s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-.banerMain {
-  width: 100%;
-}
-
+/*Fin Section 2*/
+/*Footer*/
 .footerPrincipal {
   display: flex;
   justify-content: space-between;
@@ -85,34 +89,37 @@ header {
 }
 
 .footerFlodi {
-  text-align: center;
-  font-family: Dancing Script;
+  font-family: "Amatic SC", cursive;
   font-size: 110%;
   list-style-type: none;
 }
 
 .contactoFooter {
   text-align: center;
-  font-family: Dancing Script;
+  font-family: "Amatic SC", cursive;
   font-size: 180%;
-  margin-top: 15%;
-  margin-left: 15%;
 }
 
 .logoFooter {
   width: 40%;
-  margin-left: 35%;
-  margin-top: 5%;
+  margin-left: 40%;
 }
 
-.carouselTrabajos {
-  margin-top: 10%;
+/*Fin Footer*/
+.trabajosFlodi {
+  display: flex;
 }
 
-.headerTrabajos {
-  position: fixed;
+.banerTrabajos {
   width: 100%;
-  top: 0;
+}
+
+.misTrabajos {
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: "Amatic SC", cursive;
+  color: gray;
+  font-size: 130%;
 }
 
 .formularioF {
@@ -122,11 +129,16 @@ header {
 .formularioFlodi {
   text-align: center;
   font-size: 150%;
-  font-family: Dancing Script;
+  font-family: "Amatic SC", cursive;
 }
 
 .formularioM {
   width: 50%;
+}
+
+.formEmail {
+  font-family: "Amatic SC", cursive;
+  font-size: 150%;
 }
 
 .Mflex {
@@ -142,22 +154,67 @@ header {
   width: 50%;
 }
 
+/*Mobile*/
 @media only screen and (max-width: 440px) {
+  .banerFlodi {
+    margin-top: 10%;
+  }
+
   .presentacion {
-    font-size: 50%;
-  }
-
-  .footerPrincipal {
-    font-size: 25%;
-  }
-
-  .mapaFooter {
-    height: 60%;
+    font-size: 40%;
+    margin-top: 2%;
   }
 
   .formularioFlodi {
     margin-top: 20%;
     font-size: 70%;
+  }
+
+  .footerPrincipal {
+    flex-wrap: wrap;
+    font-size: 50%;
+    justify-content: center;
+  }
+
+  .footerFlodi {
+    margin-right: 40%;
+  }
+
+  .logoFooter {
+    margin-left: 35%;
+    width: 30%;
+  }
+
+  .mapaFooter {
+    height: 80%;
+  }
+
+  .formularioFlodi {
+    font-size: 150%;
+  }
+
+  .carouselTrabajos {
+    margin-top: 12%;
+  }
+
+  .trabajosFlodi {
+    flex-wrap: wrap;
+  }
+
+  .misTrabajos {
+    margin-left: 18%;
+    font-size: 90%;
+  }
+
+  .banerTrabajos {
+    width: 100%;
+  }
+}
+/*Fin Mobile*/
+/*Tablet*/
+@media only screen and (max-width: 780px) {
+  .trabajosFlodi {
+    flex-wrap: wrap;
   }
 }
 

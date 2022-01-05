@@ -1,15 +1,59 @@
+/*Mobile*/
+
 @media only screen and (max-width: 440px) {
+    .banerFlodi {
+        margin-top: 10%;
+    }
     .presentacion {
-        font-size: 50%;
+        font-size: 40%;
+        margin-top: 2%;
     }
-    .footerPrincipal {
-        font-size: 25%;
-    }
-    .mapaFooter {
-        height: 60%;
-    }
+
     .formularioFlodi {
         margin-top: 20%;
         font-size: 70%;
     }
+    .footerPrincipal {
+        flex-wrap: wrap;
+        font-size: 50%;
+        justify-content: center;
     }
+    .footerFlodi {
+        margin-right: 40%;
+    }
+    .logoFooter {
+        margin-left: 35%;
+        width: 30%;
+    }
+    .mapaFooter {
+        height: 80%;
+    }
+    .formularioFlodi {
+        font-size: 150%;
+    }
+    .carouselTrabajos {
+        margin-top: 12%;
+    }
+    .trabajosFlodi {
+        flex-wrap: wrap;
+    }
+    .misTrabajos {
+        margin-left: 18%;
+        font-size: 90%;
+    }
+    .banerTrabajos {
+        width: 100%;
+    }
+
+}
+
+/*Fin Mobile*/
+
+/*Tablet*/
+
+@media only screen and (max-width: 780px){
+    .trabajosFlodi {
+        flex-wrap: wrap;
+    }
+
+}

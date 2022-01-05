@@ -1,0 +1,109 @@
+html {
+  overflow-x: hidden;
+}
+
+/*Header*/
+.menuFont {
+  font-family: 'Amatic SC', cursive;
+  font-size: 150%;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.logo {
+  width: 20%;
+  height: auto;
+}
+.bg-flodi {
+  background-color: #ffd3ff;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials a {
+  padding: 10px;
+}
+
+.logo-container {
+  width: 7%;
+}
+
+@media only screen and (max-width: 992px) {
+  .socials {
+    display: none;
+  }
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+}
+
+/*Fin Header*/
+
+/*Section*/
+.banerFlodi{
+  width: 100%;
+margin-left: 2%;}
+/*Fin Section*/
+/*Section 1*/
+.imagen {
+    width: 80%;
+  }
+  .imagen1 {
+    margin-left: 21%;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /*Fin section 1*/
+
+  /*Section 2*/
+  .presentacion {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Amatic SC', cursive;
+    color: gray;
+    margin-top: 10%;
+    margin-right: 8%;
+  }
+  
+  
+/*Fin Section 2*/
+
+/*Footer*/
+.footerPrincipal {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(rgb(238, 218, 226), white);
+}
+
+.footerFlodi {
+  font-family: 'Amatic SC', cursive;
+  font-size: 110%;
+  list-style-type: none;
+}
+
+.contactoFooter
+{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 180%;
+}
+
+.logoFooter{
+  width: 40%;
+  margin-left: 40%;
+}
+
+/*Fin Footer*/

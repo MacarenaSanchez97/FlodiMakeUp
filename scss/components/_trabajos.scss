@@ -1,9 +1,15 @@
-.carouselTrabajos {
-    margin-top: 10%;
-  }
-  
-  .headerTrabajos {
-    position: fixed;
+.trabajosFlodi {
+    display: flex ;
+}
+
+.banerTrabajos {
     width: 100%;
-    top: 0;
-  }
+}
+
+.misTrabajos {
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: 'Amatic SC', cursive;
+    color: gray;
+    font-size: 130%;
+}
